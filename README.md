@@ -64,6 +64,21 @@
 
 
 ## 3. EDA 진행
+전, 월세 시각화
+![image](https://github.com/gaeju/single-household-dwelling/assets/100760127/a343885d-ee8e-4539-8f61-ce0e75693e04)
+
+대중교통 시각화
+![image](https://github.com/gaeju/single-household-dwelling/assets/100760127/8b412fb1-31a1-44dd-804c-eada85acbc7c)
+
+치안 시각화
+![image](https://github.com/gaeju/single-household-dwelling/assets/100760127/9ec0f5e9-b065-4236-9c90-8db36ccf2394)
+
+편의시설 시각화
+![image](https://github.com/gaeju/single-household-dwelling/assets/100760127/15e0bf4a-f376-40cd-b953-0da4213270ae)
+![image](https://github.com/gaeju/single-household-dwelling/assets/100760127/41a6b44f-937c-4fc1-81cf-0bfa5564c82e)
+![image](https://github.com/gaeju/single-household-dwelling/assets/100760127/0453a186-6366-466d-a4cc-63c3bb776e49)
+
+insight
 
 ## 4. 분석 결과 활용
 그렇다면 이걸로 무엇을 할 수 있을까?
@@ -113,3 +128,54 @@ if 문을 이용하여 월세와 전세의 경우를 나눠줍니다.
 
 4 데이터 프레임에서 필요한 '자치구', '보증금평당가(만원), '월세평당가(만원)' 컬럼만 뽑아 출력
 
+### 페르소나로 살펴보는 분석 결과
+![image](https://github.com/gaeju/single-household-dwelling/assets/100760127/013d5cac-bdce-4465-94d6-69fa7b6eb124)
+
+코난의 경우
+![image](https://github.com/gaeju/single-household-dwelling/assets/100760127/3b5befe2-7a4a-4581-8723-a18e6ad9738a)
+
+범인의 경우
+![image](https://github.com/gaeju/single-household-dwelling/assets/100760127/623b5c95-9093-441d-a209-8e1f331346c1)
+
+
+
+## 데이터 출처
+ 공원 
+[분석데이터] 서울시 주요 공원현황 
+https://data.seoul.go.kr/dataList/OA-394/S/1/datasetView.do
+전월세
+[분석데이터] 서울특별시_전원세가 정보 
+https://www.data.go.kr/data/15052420/fileData.do
+대중교통 
+[분석데이터] 서울시 버스종류소 위치정보
+[분석데이터] 서울 지하철역 좌표 
+https://data.seoul.go.kr/dataList/OA-15067/S/1/datasetView.do
+https://observablehq.com/@taekie/seoul_subway_station_coordinate
+편의시설
+[분석데이터] 서울시 약국 인허가 정보
+[분석데이터] 서울시 세탁소 정보
+[분석데이터] 서울시 휴게음식점정보 
+https://data.seoul.go.kr/dataList/OA-16484/S/1/datasetView.do
+http://data.seoul.go.kr/dataList/OA-16065/S/1/datasetView.do
+http://data.seoul.go.kr/dataList/OA-16095/S/1/datasetView.do
+치안
+[분석데이터] 서울특별시 경찰관서 현황
+[분석데이터] 전국 유흥업소 현황
+[분석데이터] 법정동별 인구 현황
+https://www.data.go.kr/data/15054711/fileData.do?recommendDataYn=Y
+https://www.data.go.kr/data/15099158/fileData.do
+https://www.bigdata-policing.kr/product/view?product_id=PRDT_365
+
+
+공용 
+[분석데이터] 법정동별 면적
+[분석데이터] 법정동별 코드
+https://kosis.kr/statHtml/statHtml.do?orgId=460&tblId=TX_315_2009_H1105&conn_path=I2
+https://www.code.go.kr/stdcode/regCodeL.do
+참고자료 
+[기사] ‘나 혼자 산다’ 1인 가구, 700만 넘었다
+[정책자료]2022 통계로 보는 1인가구
+[기사] 월세 싸고 CCTV 많다…'혼살족' 시대, 서울서 살기좋은 이곳 [혼잘혼살]
+https://www.sisajournal.com/news/articleView.html?idxno=243189
+https://eiec.kdi.re.kr/policy/materialView.do?num=232973&topic=
+https://www.joongang.co.kr/article/25068309#home
